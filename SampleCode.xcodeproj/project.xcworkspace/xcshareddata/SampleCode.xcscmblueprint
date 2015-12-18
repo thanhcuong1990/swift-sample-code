@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A009CA7BA65A813EFB69ED1F153AB690EF16D349",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1095F7F991FB2A993E072E556E52155DA7ECB08F" : 0,
+    "A009CA7BA65A813EFB69ED1F153AB690EF16D349" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "263140C9-1776-4099-AC9A-F2AEB19873E0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1095F7F991FB2A993E072E556E52155DA7ECB08F" : "",
+    "A009CA7BA65A813EFB69ED1F153AB690EF16D349" : "SampleCode\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SampleCode",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SampleCode\/SampleCode.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/locnp\/jootodemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1095F7F991FB2A993E072E556E52155DA7ECB08F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:nplisuit\/SampleCode.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A009CA7BA65A813EFB69ED1F153AB690EF16D349"
+    }
+  ]
+}

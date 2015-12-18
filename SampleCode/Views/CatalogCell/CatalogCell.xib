@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CatalogCell" customModule="SampleCode" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="118" height="113"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="118" height="113"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TKJ-KR-f1a">
+                        <rect key="frame" x="0.0" y="0.0" width="118" height="113"/>
+                        <animations/>
+                    </imageView>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <animations/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="TKJ-KR-f1a" secondAttribute="bottom" id="J5q-qh-Q7B"/>
+                <constraint firstAttribute="trailing" secondItem="TKJ-KR-f1a" secondAttribute="trailing" id="JQA-C8-gOn"/>
+                <constraint firstItem="TKJ-KR-f1a" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="W1G-00-g6p"/>
+                <constraint firstItem="TKJ-KR-f1a" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="fif-Pv-ZmN"/>
+            </constraints>
+            <size key="customSize" width="118" height="113"/>
+            <connections>
+                <outlet property="imgvCatalog" destination="TKJ-KR-f1a" id="Br7-LJ-QHR"/>
+            </connections>
+            <point key="canvasLocation" x="729" y="537.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

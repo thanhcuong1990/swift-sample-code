@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="T2m-Ka-uAI">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="UCs-M7-78z">
+            <objects>
+                <navigationController id="T2m-Ka-uAI" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MFi-ef-ZA8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="cFH-fX-dzw" kind="relationship" relationship="rootViewController" id="D1E-VW-ulY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1J0-VP-Keo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="452"/>
+        </scene>
+        <!--Search View Controller-->
+        <scene sceneID="jrh-Ji-aXh">
+            <objects>
+                <viewController id="cFH-fX-dzw" customClass="SearchViewController" customModule="SampleCode" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aoF-XD-pAi"/>
+                        <viewControllerLayoutGuide type="bottom" id="0at-hH-c7O"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YBX-QX-rzO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" placeholder="search" translatesAutoresizingMaskIntoConstraints="NO" id="b5H-Xd-N2F">
+                                <rect key="frame" x="0.0" y="64" width="600" height="44"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="RXA-XH-WlK"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="b5H-Xd-N2F" firstAttribute="top" secondItem="aoF-XD-pAi" secondAttribute="bottom" id="C6R-Cg-Cjh"/>
+                            <constraint firstAttribute="trailing" secondItem="b5H-Xd-N2F" secondAttribute="trailing" id="VLB-gV-cwb"/>
+                            <constraint firstItem="b5H-Xd-N2F" firstAttribute="leading" secondItem="YBX-QX-rzO" secondAttribute="leading" id="fEF-az-3Mb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="X1J-qU-oto"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ui-za-DUn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="852" y="460"/>
+        </scene>
+    </scenes>
+</document>
